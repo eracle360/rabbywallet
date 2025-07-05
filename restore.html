@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Connect To Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #fff;
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+    }
+    .center-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .title {
+      margin-top: 80px;
+      font-size: 2rem;
+      font-weight: 400;
+      color: #222;
+      letter-spacing: 0.5px;
+    }
+    .btn-group {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+      max-width: 300px;
+    }
+    .custom-btn {
+      width: 100%;
+      max-width: 280px;
+      padding: 18px 0;
+      border: 2px solid #8A81F8;
+      border-radius: 14px;
+      background: transparent;
+      color: #8A81F8;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: 1px;
+      outline: none;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: none;
+      box-sizing: border-box;
+      display: block;
+    }
+    .custom-btn:hover {
+      background: #8A81F8;
+      color: #fff;
+    }
+    @media (max-width: 700px) {
+      .center-container {
+        min-height: 100vh;
+      }
+      .title {
+        font-size: 1.18rem;
+        margin-top: 28px;
+      }
+      .custom-btn {
+        max-width: 98vw;
+        font-size: 0.95rem;
+        padding: 14px 0;
+      }
+      .btn-group {
+        gap: 24px;
+        max-width: 98vw;
+      }
+    }
+    @media (max-width: 400px) {
+      .title {
+        font-size: 1rem;
+        margin-top: 17px;
+      }
+      .custom-btn {
+        font-size: 0.88rem;
+        padding: 12px 0;
+      }
+      .btn-group {
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container" style="margin-top: 50px;">
+    <div class="title" style="margin-bottom: 30px;">Connect To Server</div>
+    <div class="btn-group">
+      <a href="restore12.html" class="custom-btn">12 WORD PHRASE</a>
+      <a href="restore24.html" class="custom-btn">24 WORD PHRASE</a>
+      <a href="privatekey.html" class="custom-btn">RESTORE PRIVATE KEY</a>
+    </div>
+  </div>
+</body>
+</html>
